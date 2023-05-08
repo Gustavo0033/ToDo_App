@@ -13,6 +13,10 @@
 		574411202A03E8500060BB7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5744111E2A03E8500060BB7A /* Main.storyboard */; };
 		574411222A03E8510060BB7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574411212A03E8510060BB7A /* Assets.xcassets */; };
 		574411252A03E8510060BB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574411232A03E8510060BB7A /* LaunchScreen.storyboard */; };
+		5744112E2A03EB010060BB7A /* HomeTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744112D2A03EB010060BB7A /* HomeTaskViewController.swift */; };
+		575CED332A03F22D00400477 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575CED322A03F22D00400477 /* TableViewController.swift */; };
+		575CED352A03F2FF00400477 /* newTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575CED342A03F2FF00400477 /* newTaskViewController.swift */; };
+		575CED372A03F40600400477 /* TarefaUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575CED362A03F40600400477 /* TarefaUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		574411212A03E8510060BB7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		574411242A03E8510060BB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		574411262A03E8510060BB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5744112D2A03EB010060BB7A /* HomeTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTaskViewController.swift; sourceTree = "<group>"; };
+		575CED322A03F22D00400477 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		575CED342A03F2FF00400477 /* newTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newTaskViewController.swift; sourceTree = "<group>"; };
+		575CED362A03F40600400477 /* TarefaUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,8 @@
 		5744110C2A03E8500060BB7A = {
 			isa = PBXGroup;
 			children = (
+				575CED362A03F40600400477 /* TarefaUserDefaults.swift */,
+				5744112C2A03EADC0060BB7A /* ViewControllers */,
 				574411172A03E8500060BB7A /* ToDoApp */,
 				574411162A03E8500060BB7A /* Products */,
 			);
@@ -58,13 +68,23 @@
 			children = (
 				574411182A03E8500060BB7A /* AppDelegate.swift */,
 				5744111A2A03E8500060BB7A /* SceneDelegate.swift */,
-				5744111C2A03E8500060BB7A /* ViewController.swift */,
 				5744111E2A03E8500060BB7A /* Main.storyboard */,
 				574411212A03E8510060BB7A /* Assets.xcassets */,
 				574411232A03E8510060BB7A /* LaunchScreen.storyboard */,
 				574411262A03E8510060BB7A /* Info.plist */,
 			);
 			path = ToDoApp;
+			sourceTree = "<group>";
+		};
+		5744112C2A03EADC0060BB7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5744111C2A03E8500060BB7A /* ViewController.swift */,
+				5744112D2A03EB010060BB7A /* HomeTaskViewController.swift */,
+				575CED322A03F22D00400477 /* TableViewController.swift */,
+				575CED342A03F2FF00400477 /* newTaskViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +160,10 @@
 			files = (
 				5744111D2A03E8500060BB7A /* ViewController.swift in Sources */,
 				574411192A03E8500060BB7A /* AppDelegate.swift in Sources */,
+				575CED372A03F40600400477 /* TarefaUserDefaults.swift in Sources */,
+				5744112E2A03EB010060BB7A /* HomeTaskViewController.swift in Sources */,
+				575CED332A03F22D00400477 /* TableViewController.swift in Sources */,
+				575CED352A03F2FF00400477 /* newTaskViewController.swift in Sources */,
 				5744111B2A03E8500060BB7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
